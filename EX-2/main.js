@@ -1,8 +1,9 @@
 
 //  TODO - You need to import Duration to use it
-
+import { Duration } from "./Duration.js";
 
 const d1 = Duration.fromMinutesAndSeconds(2, 30);
+console.log(d1.toString());
  
 const d2 = Duration.fromMinutesAndSeconds(1, 45);
 
